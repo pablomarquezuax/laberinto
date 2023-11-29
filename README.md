@@ -23,3 +23,13 @@ laberinto = [
 El laberinto se debe crear a partir de una tupla con las coordenadas de las casillas donde hay muro, como la siguiente:
 
 muro = ((0,1), (0,2), (0,3), (0,4), (1,1), (2,1), (2,3), (3,3), (4,0), (4,1), (4,2), (4,3))
+
+
+La segunda tarea consiste en **Crear una lista con los movimientos que hay que realizar para salir del laberinto creado**.
+
+
+La segunda tarea a resolver consiste en construir un programa para recorrer el laberinto desde la entrada a la salida. La entrada siempre está en la esquina superior izquierda y la salida en la esquina inferior derecha.
+
+El programa debe devolver una lista con la secuencia de movimientos para ir de la entrada a la salida del laberinto, tal y como se muestra a continuación:
+
+['Abajo', 'Abajo', 'Abajo', 'Abajo', 'Derecha', 'Derecha', 'Arriba', 'Arriba', 'Derecha', 'Derecha',
